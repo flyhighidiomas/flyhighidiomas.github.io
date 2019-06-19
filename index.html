@@ -26,26 +26,31 @@
          width:100%;
       }
       
-      .flex {
-         display: flex;
+      .grid{
+         position: fixed;
+         z-index:0 ;
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 1fr;
+
       }
 
       h1 {
+         grid-template-rows: 1/2;
          font-family: 'Abril Fatface', cursive;
          font-size: 50px;
          color: white;
          text-shadow: 2px 2px 5px rgb(24, 24, 24); 
-         position: fixed;
          top: 50%;
          left: 50%;
       }
 
       p {
+         grid-template-rows: 2/3;
          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          font-size: 20px;
          color: white;
          text-shadow: 2px 2px 5px rgb(24, 24, 24); 
-         position: fixed;
          top: 50%;
          left: 50%;
       }
@@ -55,9 +60,7 @@
         
         text-shadow: 2px 2px 40px rgb(24, 24, 24);
       }
-      .flex {
-
-      }
+     
       a {
         text-decoration: none;
         color: white;
@@ -65,7 +68,7 @@
 
     </style>
     <img class="back-img"src="img/cab-cars-city-247.jpg" alt="New York City">
-    <div class="flex">
+    <div class="grid">
       <h1><a href="https://www.flyhigh-rs.com.br">Inglês para aviação</a></h1>
       <p>Em breve o melhor conteúdo de inglês para pilotos e comissários.</p>
     </div>
