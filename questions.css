@@ -3,4 +3,13 @@
 }
 .container-questions{
    
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgb(182, 182, 182);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-left:100px;
+   padding-right:100px;
+   margin-left: 20px;
+   margin-right: 20px; 
 }
