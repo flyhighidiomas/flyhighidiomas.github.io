@@ -1,7 +1,15 @@
-body{
+*{
     margin: 0;
-    background-color: rgb(255, 255, 255);
 }
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#668;
+  }
 
 .header{
     width: 100%;
@@ -14,6 +22,11 @@ body{
     box-shadow: 0 2px 6px rgb(182, 182, 182);
 
 
+}
+
+.main{
+    position: relative;
+    top: 50px;
 }
 
 .nav{
@@ -82,6 +95,5 @@ h1{
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    
 }
